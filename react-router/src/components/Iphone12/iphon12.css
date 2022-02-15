@@ -1,0 +1,49 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: white;
+}
+
+.navigation-bar{
+    width: 30%;
+    background-color: black;
+    padding: 50px 0 50px 50px;
+}
+
+.content{
+    width: 60%;
+    background-color: black;
+    padding: 20px 0 0 0;
+}
+
+.pic-container{
+    width: 60%;
+    height: 600px;
+    padding: 20px 0 20px 0;
+    background-color: black;
+    margin: auto;
+}
+
+.pic-container-12{
+    background-color: black;
+}
+
+.pic-container-12 img{
+    height: 80%;
+    width: 500px;
+    display: block;
+    margin: auto;
+}
+
+.btn{
+    display: block;
+    margin: auto;
+    padding: 10px 20px;
+    background-color: grey;
+    margin-top: 10px;
+}
+
+.btn:hover{
+    cursor: pointer;
+}

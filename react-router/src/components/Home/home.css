@@ -1,0 +1,44 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: white;
+}
+
+.navigation-bar{
+    width: 30%;
+    background-color: black;
+    padding: 50px 0 50px 50px;
+}
+
+.home-content{
+    width: 60%;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px 0 0 0;
+}
+
+.navigation-bar nav ul li{
+    background-color: black;
+    line-height: 50px;
+    font-size: 30px;
+}
+
+.navigation-bar nav ul li:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.home-content img{
+    width: 250px;
+    height: 300px;
+    margin-bottom: 20px;
+}
+
+.links{
+    color: wheat;
+    background-color: black;
+}
